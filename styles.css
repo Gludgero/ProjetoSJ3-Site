@@ -82,6 +82,8 @@ html {
 /* terceira seção -------------------------------------------------------- */
 
 .terceira-section {
+    display: flex;
+    align-items: center;
     background-color: rgb(55, 131, 175);
     height: 950px;
 }
@@ -109,7 +111,7 @@ html {
     background-color: rgb(25, 39, 97);
     color: white;
     width: 247px;
-    height: 615px;
+    height: 500px;
 }
 
 .second-servicos {
