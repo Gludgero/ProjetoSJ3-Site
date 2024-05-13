@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.primeira-section {
+    background-color: grey;
+    height: 480px;
+}
+
+.titulo-librebaskerville {
+    font-family: "Libre Baskerville", serif;
+
+}
+
+
+
+
+
+
+
+.segunda-section {
+    background-color: white;
+    height: 720px;
+}
+
+.terceira-section {
+    background-color: rgb(55, 131, 175);
+    height: 950px;
+}
+
+.quarta-section {
+    background-color: black;
+    color: white;
+    height: 220px;
+}
+.destaque-azul {
+    color: aqua;
+}
+.destaque-cinza-underline {
+    text-decoration: underline;
+    color: grey;
+    font-family: "Libre Baskerville", serif;
+}
+
+.first-servicos {
+    background-color: rgb(25, 39, 97);
+    color: white;
+}
+
+.second-servicos {
+    background-color: rgb(61, 90, 207);
+    color: white;
+}
+
+.third-servicos {
+    background-color: rgb(36, 137, 184);
+    color: white;
+}
+
+.fourth-servicos {
+    background-color: rgb(27, 138, 146);
+    color: white;
+}
+
+.fifth-servicos {
+    background-color: rgb(18, 209, 216);
+    color: white;
+}
