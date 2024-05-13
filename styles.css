@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
+html {
+    min-height: 100%;
 
+}
 
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 .primeira-section {
-    background-color: grey;
+    background-image: url(img2.png);
+    background-size: cover;
+    background-position: center;
     height: 480px;
+    
 }
 
 .titulo-librebaskerville {
@@ -24,20 +31,35 @@
 
 
 .segunda-section {
+    display: flex;
     background-color: white;
     height: 720px;
 }
+
+.segunda-section-img {
+    align-items: center;
+
+}
+
+
 
 .terceira-section {
     background-color: rgb(55, 131, 175);
     height: 950px;
 }
 
+
+
+
 .quarta-section {
     background-color: black;
     color: white;
     height: 220px;
 }
+
+
+
+
 .destaque-azul {
     color: aqua;
 }
