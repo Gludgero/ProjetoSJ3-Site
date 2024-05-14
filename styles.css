@@ -19,6 +19,13 @@ html {
 
 }
 
+.nav {
+    display: flex;
+    transition: top 100s;
+    position: fixed;
+
+}
+
 /* Primeira Seção ------------------------------------------------------ */
 
 
