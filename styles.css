@@ -8,6 +8,11 @@ html {
 
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -19,12 +24,32 @@ html {
 
 }
 
+.nav {
+    display: flex;
+    transition: top 100s;
+    position: fixed;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+
+}
+
+
 /* Primeira Seção ------------------------------------------------------ */
 
 
+<<<<<<< HEAD
 .header {
     
     background-image: url(imgs/img2.png);
+=======
+.primeira-section {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(img2.png);
+>>>>>>> d3377ef450c24ba94eb5a4da5294644fa3f6d8b7
     background-size: cover;
     background-position: center;
     height: 480px;
@@ -92,7 +117,12 @@ html {
 
 .servicos-titulo { 
     text-decoration: underline;
+<<<<<<< HEAD
     color: rgb(0, 0, 0);
+=======
+    justify-content: center;
+    color: grey;
+>>>>>>> d3377ef450c24ba94eb5a4da5294644fa3f6d8b7
     font-family: "Libre Baskerville", serif;
     font-size: 35px;
 
