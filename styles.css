@@ -22,9 +22,9 @@ html {
 /* Primeira Seção ------------------------------------------------------ */
 
 
-.primeira-section {
+.header {
     
-    background-image: url(img2.png);
+    background-image: url(imgs/img2.png);
     background-size: cover;
     background-position: center;
     height: 480px;
@@ -32,13 +32,13 @@ html {
     
 }
 
-.primeira-section-titulo {
+.header-titulo {
     font-family: "Libre Baskerville", serif;
     font-size: 32px;
 
 }
 
-.primeira-section-texto {
+.header-texto {
     font-family: "Open Sans", sans-serif;
     font-size: 17px;
      
@@ -46,72 +46,83 @@ html {
 
 /* Segunda Seção ------------------------------------------------------- */ 
 
-.segunda-section {
+.sobrenos {
     display: flex;
     background-color: white;
     height: 720px;
 }
 
-.segunda-section-titulo1 {
+.sobrenos-titulo1 {
     font-family: "Libre Baskerville", serif;
     font-size: 35px;
 
 }
 
-.segunda-section-titulo2 {
+.sobrenos-titulo2 {
     font-family: "Libre Baskerville", serif;
     font-size: 25px;
 
 }
 
-.segunda-section-texto1 {
+.sobrenos-texto1 {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
 }
 
-.segunda-section-texto2 {
+.sobrenos-texto2 {
     font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+    font-size: 17px;
 }
 
-.segunda-section-img {
+.sobrenos-img {
     align-items: center;
 
 }
 
 /* terceira seção -------------------------------------------------------- */
 
-.terceira-section {
+.servicos {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    background-color: rgb(55, 131, 175);
+    justify-content: space-around;
+    background-color: #87B1C1;
     height: 950px;
 }
 
-.terceira-section-titulo { 
+.servicos-titulo { 
     text-decoration: underline;
-    color: grey;
+    color: rgb(0, 0, 0);
     font-family: "Libre Baskerville", serif;
     font-size: 35px;
 
 }
 
-.terceira-section-titulos-divs {
-    font-family: "Libre Baskerville", serif;
-    font-size: 25px;    
-    color: white;
+.servicos-divs {
+display: flex;
+
 }
 
-.terceira-section-texto-divs {
+.servicos-titulos-divs {
+    font-family: "Libre Baskerville", serif;
+    font-size: 25px;    
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.servicos-texto-divs {
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
 }
 
 .first-servicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: rgb(25, 39, 97);
     color: white;
     width: 247px;
-    height: 500px;
+    height: 615px;
 }
 
 .second-servicos {
