@@ -16,31 +16,19 @@ main {
 * {
     margin: 0;
     padding: 0;
-    
 }
+
+
 
 .titulo-librebaskerville {
     font-family: "Libre Baskerville", serif;
 
 }
 
-.nav {
-    display: flex;
-    transition: top 100s;
-    position: fixed;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: white;
-
-}
-
-
 /* Primeira Seção ------------------------------------------------------ */
 
 
-.header {
+header {
     
     background-image: url(imgs/img2.png);
     background-size: cover;
@@ -48,6 +36,37 @@ main {
     height: 480px;
     color: white;
     
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    transition: top 100s;
+    
+}
+
+li {
+    list-style-type: none;
+  }
+
+.header-nav {
+
+display: flex;
+
+}
+
+.header-nav-logo {
+    padding: 10px;
+    height: 120px;
+    width: 200px;
+}
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    font-size: 20px;
+
 }
 
 .header-titulo {
@@ -66,13 +85,42 @@ main {
 
 .sobrenos {
     display: flex;
-    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(imgs/captura1.png);
     height: 720px;
 }
 
+.sobrenos-quadrado1 {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 500px;
+
+padding: 20px;
+margin: 50px;
+border: 20px solid #87B1C1;
+
+    
+}
+
+.sobrenos-quadrado2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 500px;
+    padding: 20px;
+    margin: 50px;
+    border: 15px solid #6b6d6e;
+    
+        
+    }
+
+
 .sobrenos-titulo1 {
     font-family: "Libre Baskerville", serif;
-    font-size: 35px;
+    font-size: 30px;
 
 }
 
@@ -97,21 +145,27 @@ main {
 
 }
 
+.img3 {
+    height: 600px;
+    
+    
+}
+
 /* terceira seção -------------------------------------------------------- */
 
 .servicos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #87B1C1;
-    height: 950px;
+    height: 600px;
 }
 
 .servicos-titulo { 
     text-decoration: underline;
     justify-content: center;
-    color: grey;
+    color: rgb(0, 0, 0);
     font-family: "Libre Baskerville", serif;
     font-size: 35px;
 
@@ -126,50 +180,51 @@ display: flex;
     font-family: "Libre Baskerville", serif;
     font-size: 25px;    
     color: rgb(255, 255, 255);
-    text-decoration: underline;
+    padding: 20px;
 }
 
-.servicos-texto-divs {
+.servicos-textos-divs {
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
+    padding: 20px;
 }
 
 .first-servicos {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    flex-wrap: wrap;
     background-color: rgb(25, 39, 97);
     color: white;
     width: 247px;
-    height: 615px;
+    height: 400px;
 }
 
 .second-servicos {
     background-color: rgb(61, 90, 207);
     color: white;
     width: 247px;
-    height: 615px;
+    height: 400px;
 }
 
 .third-servicos {
     background-color: rgb(36, 137, 184);
     color: white;
     width: 247px;
-    height: 615px;
+    height: 400px;
 }
 
 .fourth-servicos {
     background-color: rgb(27, 138, 146);
     color: white;
     width: 247px;
-    height: 615px;
+    height: 400px;
 }
 
 .fifth-servicos {
-    background-color: rgb(18, 209, 216);
+    background-color: rgb(100, 143, 144);
     color: white;
     width: 247px;
-    height: 615px;
+    height: 400px;
 }
 
 
