@@ -29,7 +29,8 @@ main {
 
 
 header {
-    
+    display: flex;
+    flex-direction: column;
     background-image: url(imgs/img2.png);
     background-size: cover;
     background-position: center;
@@ -40,19 +41,29 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: center;
+    margin-left: 20px;
     transition: top 100s;
-    
+    position: fixed;
 }
 
 li {
+    display: flex;
+    justify-content: space-around;
+
+    margin-right: 150px;
     list-style-type: none;
+    margin-top: 10px;
+    
   }
 
-.header-nav {
+ul {
 
 display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+
 
 }
 
@@ -60,6 +71,8 @@ display: flex;
     padding: 10px;
     height: 120px;
     width: 200px;
+    margin-right: 50px;
+    margin-top: 50px;
 }
 .nav-link {
     text-decoration: none;
