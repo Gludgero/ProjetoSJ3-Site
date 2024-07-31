@@ -250,13 +250,33 @@ display: flex;
 /* Quarta Seção ----------------------------------------------------- */
 
 
-.quarta-section {
-    background-color: black;
+.contatos {
+    background-image: url(imgs/img4.png);
+    background-size: cover;
+    background-position: center;
     color: white;
     height: 220px;
+
+    display: flex;
+    flex-direction: column;
+
 }
 
+.contatos_titulo {
+    align-self: center;
+    margin-top: 1%;
+    font-size: 35px;
+}
 
+.div_contatos_textos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+h5 {
+    font-size: 22px;
+}
 
 /*  
 font-family: "Open Sans", sans-serif; 
