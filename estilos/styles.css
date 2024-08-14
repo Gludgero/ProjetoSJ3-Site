@@ -330,15 +330,14 @@ footer {
 
 }
 
-@media (max-width: 600px){ 
+@media (max-width: 480px){ 
 
     body{ overflow-x: hidden;}
 
     header {  
       header {
       width: 100%;
-      height: 50vh; 
-      padding: 20px; 
+      height: 100%;
     }
     }
 
@@ -348,11 +347,12 @@ footer {
         align-self: center;
     }
 
+    
     .nav-link {
         text-decoration: none;
         color: white;
         font-family: "Libre Baskerville", serif;
-        font-size: 1.2rem;
+        font-size: 1rem;
     
     }
 
@@ -366,6 +366,15 @@ footer {
         margin-top: 3rem;
         
        
+    }
+
+    .header-content{
+        margin-top: 20px;
+        padding: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 60svw;
     }
 
     .header-texto {
@@ -382,7 +391,6 @@ footer {
     .sobrenos {
         flex-direction: column;
         height: 800px;
-        overflow: auto;
     }
 
     .sobrenos-quadrado1 {
@@ -391,7 +399,7 @@ footer {
         justify-content: space-around;
         padding: 20px;
         width: 55svw;
-        height: 250px;
+        height: 18rem;
         border: 15px solid #87B1C1;  
     }
 
@@ -404,10 +412,11 @@ footer {
     .sobrenos-texto1 {
         font-family: "Open Sans", sans-serif;
         font-size: 0.8rem;
-        width: 50svw;
+        width: 55svw;
         text-align: justify;
         font-weight: 600;
         margin-top: 10px;
+        overflow: auto;
     }
 
     .sobrenos-img {
@@ -420,7 +429,7 @@ footer {
         justify-content: space-around;
         padding: 20px;
         width: 55svw;
-        height: 250px;
+        height: 18rem;
         border: 15px solid #6b6d6e;    
     }
 
@@ -436,6 +445,7 @@ footer {
         font-size: 1rem;
         font-weight: 500;
         text-align: justify;
+        overflow: auto;
     }
 
     .buildings-background{
@@ -467,7 +477,7 @@ footer {
     }
 
     .contatos {
-        height: 32rem;
+        height: 35rem;
         gap: 30px;
         display: flex;
         flex-direction: column;
@@ -493,15 +503,179 @@ footer {
         width: 57svw;
         text-align: center;
     }
-
-
-} /*
-
-
-@media (min-width: 601px) and (max-width: 1023px){
-
 }
 
-@media (min-width: 1024px){
+@media (min-width: 481px) and (max-width: 1024px){
 
+    header {  
+      header {
+      width: 100%;
+    }
+    }
+
+    .header-nav-logo {
+        margin-top: 1vw;
+        max-width: 35vw;
+        align-self: center;
+        justify-self: center;
+    }
+
+    
+    .nav-link {
+        text-decoration: none;
+        color: white;
+        font-family: "Libre Baskerville", serif;
+        font-size: 3.5vw;
+    
+    }
+
+
+    .header-titulo {
+        font-family: "Libre Baskerville", serif;
+        font-size: 5vw;
+        overflow: auto;
+        width: 75vw;
+        margin-top: 12vw;
+        height: 35vw;
+        
+       
+    }
+
+    .header-content{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 78vw;
+    }
+
+    .header-texto {
+        font-family: "Open Sans", sans-serif;
+        font-size: 3.2vw;
+        font-weight: 500;
+        width: 75vw;
+        text-align: justify;
+        overflow: auto;
+        margin-top: -28vw;
+         
+    }
+
+    .sobrenos {
+        flex-direction: column;
+        height: 135vw;
+    }
+
+    .sobrenos-quadrado1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        width: 55vw;
+        height: 50vw;
+        border: 15px solid #87B1C1;  
+    }
+
+    .sobrenos-titulo1 {
+        font-family: "Libre Baskerville", serif;
+        font-size: 3.5vw;
+        width: 55svw;
+    }
+
+    .sobrenos-texto1 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 2.7vw;
+        width: 55vw;
+        text-align: justify;
+        font-weight: 600;
+        overflow: auto;
+    }
+
+    .sobrenos-img {
+        display: none;
+    }
+
+    .sobrenos-quadrado2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 55vw;
+        height: 50vw;
+        border: 15px solid #6b6d6e;    
+    }
+
+    .sobrenos-titulo2 {
+        font-family: "Libre Baskerville", serif;
+        font-size: 3.7vw;
+        width: 60svw;
+        overflow: auto;
+    }
+
+    .sobrenos-texto2 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 3.2vw;
+        font-weight: 500;
+        text-align: justify;
+        overflow: auto;
+    }
+
+    .buildings-background{
+        height: 30vw;
+        background-image: url("../imgs/img3.png");
+    }
+
+    .servicos {
+        height: 280vw;
+    }
+
+    .servicos-titulo { 
+        font-size: 4.5vw;
+    }    
+
+    .servicos-divs {
+        display: flex;
+        flex-direction: column;
+        width: 80sw;
+        gap: 1rem;
+    }
+
+    .servicos-textos-divs {
+        font-size: 2.7vw;
+    }
+
+    .servicos-titulos-divs {
+        font-size: 3.7vw;    
+    }
+
+    .first-servicos, .second-servicos, .third-servicos, .fourth-servicos, .fifth-servicos {
+        width: 52vw;
+    }
+
+    .contatos {
+        height: 70vw;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contatos_titulo {
+        font-size: 5vw;
+    }
+
+    .div_contatos_textos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 6vw;
+    }
+
+    .div_contatos_texto_endereço {
+        font-size: 1.3rem;
+        overflow: auto;
+    }
+
+    h5 {
+        font-size: 4vw;
+    }
 }
